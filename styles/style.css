@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+h2{
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+p{
+  font-family: 'Lato';
+  font-weight: 400;
+  margin: 0;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+header.header {
+  background-color: #111111;
+  font-family: "Asul";
+}
+
+header img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.header .text-white-50{
+  color: rgba(255, 255, 255, 0.6) !important;
+  a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+figure {
+  margin-bottom: 0;
+}
+
+nav .nav-link {
+  color: rgb(102, 102, 102);
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 15px;
+}
+.btn{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.seccion-1 header{
+  top: 20%;
+  left: 5%;
+  right: 55%;
+  h1{
+    font-family: "Montserrat";
+    font-weight: 700; 
+  }
+}
+.seccion-1 header span{
+  color: #FBD232;
+}
+.seccion-1 header+div{
+  bottom: 10%;
+  left: 5%;
+}
+.seccion-1 figcaption{
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+.seccion-2 ul li figure {
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.seccion-2 ul li:nth-child(1) figure{
+  background-image: url("../images/inicio/Pintura.jpg");
+}
+
+.seccion-2 ul li:nth-child(2) figure {
+  background-image: url("../images/inicio/Drywall.jpg");
+}
+
+.seccion-2 ul li:nth-child(3) figure {
+  background-image: url("../images/inicio/Electrico.jpg");
+}
+
+.seccion-2 ul li:nth-child(4) figure {
+  background-image: url("../images/inicio/Aire-Acondicionado.jpg");
+}
+
+.seccion-2 ul li figure:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.seccion-2 h3 a {
+  color: #ffdc51;
+  font-family: "Asul";
+  transition: all 0.3s ease-in-out;
+}
+.seccion-2 h3 a:hover{
+  color: #c7a41a;
+}
+
+.seccion-2 .btn {
+  font-family: "Montserrat";
+  font-weight: 500;
+  border-radius: 0;
+  transition: all 0.2s ease-in-out;
+}
+.seccion-2 .btn:hover{
+  background-color: transparent;
+}
+
+.seccion-3{
+  background-color: #D4A132;
+}
+.seccion-3 .btn{
+  max-width: 215px;
+}
+.seccion-3 h2{
+  color: #000000;
+}
+.seccion-3 h2 span:first-child{
+  color: #ffffff;
+}
+.seccion-3 h2 br+span{
+  color: #E6E6E6;
+}
+
+.servicio-1 {
+  background-color: #1C2536;
+}
+.servicio-2 {
+  background-color: #E3F1FF;
+}
+.servicio-3 {
+  background-color: #ffffff;
+}
+.servicio-4 {
+  background-color: #1C2536;
+}
+
+footer{
+  background-color: #282828;
+}
+footer .container+div{
+  background-color: #000000;
+}
+footer img{
+  width: 35px;
+  padding-right: 5px;
+}
+footer img+span{
+  font-family: "Asul";
+  font-size: 25px;
+}
+footer p{
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+footer li{
+  color: rgba(255, 255, 255, 0.6);
+  transition: all 0.15s ease-in-out;
+  a{
+    color: rgba(255, 255, 255, 0.6);
+    transition: all 0.15s ease-in-out;
+  }
+
+}
+footer a:hover{
+  color: #ffdc51;
+}
+footer h2 span{
+  color: #ffdc51;
+}
+
+.servicio-1 h2 span,
+.servicio-2 h2 span,
+.servicio-3 h2 span,
+.servicio-4 h2 span {
+  color: #ffdc51;
+}
+
+.servicio-1 .btn,
+.servicio-2 .btn,
+.servicio-3 .btn,
+.servicio-4 .btn {
+  transition: all 0.15s ease-in-out;
+}
+
+.servicio-1 .btn:hover,
+.servicio-2 .btn:hover,
+.servicio-3 .btn:hover,
+.servicio-4 .btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #000000 !important;
+}
+
+.servicio-1 h3,
+.servicio-2 h3,
+.servicio-3 h3,
+.servicio-4 h3{
+  color: #569fa1;
+}
+
+.servicio-1 figure img,
+.servicio-2 figure img,
+.servicio-3 figure img,
+.servicio-4 figure img{
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.contacto{
+  background-color: #111111;
+}
+.contacto h1{
+  font-weight: 700;
+}
+
+.mensaje label{
+  font-family: "Asul";
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.mensaje textarea{
+  font-family: "Lato";
+  font-size: 14px;
+  height: 120px;
+  border-radius: 0;
+}
+
+.mensaje input{
+  border-radius: 0;
+  font-family: "Lato";
+  font-size: 14px;
+}
+
+.mensaje input:focus{
+  outline: none;
+  box-shadow: none;
+  border-color: #FBD232;
+}
+.mensaje textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #FBD232;
+}
+
+.mensaje .input-group.has-validation span{
+  font-family: "Lato";
+  font-size: 14px;
+  border-radius: 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.mensaje button{
+  transition: all 0.15s ease-in-out;
+  border-radius: 0;
+  font-family: "Asul";
+}
+.mensaje button:hover{
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #000000 !important;
+}
+.mensaje .col-7+.col-5 svg+div span:first-child{
+  font-family: "Asul";
+  font-size: 17px;
+}
+.mensaje .col-7+.col-5 svg+div span:last-child {
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+
+.page-not-found{
+  background-color: #E3F1FF;
+}
+
+/* Responsive */
+@media (max-width: 1140px) {
+  .mensaje .col-5 .bg-black{
+    margin: 2rem !important;
+    padding: 1rem !important;
+  }
+}
+
+
+@media (max-width: 960px) {
+  header img{
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .seccion-2 .container{
+    max-width: 100%;
+  }
+  .seccion-3 .container{
+    max-width: 100%;
+  }
+  footer .container{
+    max-width: 100%;
+  }
+  .mensaje .container{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  header .row figure:nth-child(3){
+    display: none !important;
+  }
+
+  nav .nav-link{
+    padding: 1rem !important;
+  }
+
+  .seccion-1 h1 {
+    font-size: 27px !important;
+  }
+  .seccion-1 figure {
+    margin-right: 0.5rem !important;
+  }
+  .seccion-1 svg{
+    width: 40px;
+  }
+  .seccion-1 figcaption{
+    font-size: 14px !important;
+  }
+  
+  h2.fs-2{
+    font-size: 25px !important;
+  }
+  p.w-50{
+    width: 75% !important;
+    font-size: 0.9rem !important;
+  }
+
+  .seccion-2 figure{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .seccion-3 h2{
+    font-size: 1.5rem !important;
+  }
+  .seccion-3 p {
+    font-size: 0.9rem !important;
+  }
+  .seccion-3 .btn{
+    font-size: 0.8rem !important;
+  }
+  footer p.text-light{
+    font-size: 0.8rem !important;
+  }
+  footer span{
+    font-size: 0.9rem !important;
+  }
+  footer a{
+    font-size: 0.8rem !important;
+  }
+  footer h2.text-light{
+    font-size: 0.9rem !important;
+  }
+  footer .col-4{
+    padding: 2rem !important;
+    margin: 0 !important;
+  }
+  footer span.text-light{
+    font-size: 0.7rem !important;
+  }
+  .servicio-1 h2,
+  .servicio-2 h2,
+  .servicio-3 h2,
+  .servicio-4 h2{
+    font-size: 1.2rem !important;
+  }
+  .servicio-1 h3,
+  .servicio-2 h3,
+  .servicio-3 h3,
+  .servicio-4 h3{
+    font-size: 0.9rem !important;
+  }
+  .servicio-1 p,
+  .servicio-2 p,
+  .servicio-3 p,
+  .servicio-4 p{
+    font-size: 0.8rem !important;
+  }
+  .servicio-1 .btn,
+  .servicio-2 .btn,
+  .servicio-3 .btn,
+  .servicio-4 .btn{
+    font-size: 0.7rem !important;
+  }
+  .servicio-1 figure img,
+  .servicio-2 figure img,
+  .servicio-3 figure img,
+  .servicio-4 figure img{
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .mensaje .col-7,
+  .mensaje .col-5{
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .seccion-1 h1{
+    font-size: 22px !important;
+  }
+  .seccion-1 figure{
+    display: none !important;
+  }
+
+  .seccion-2 h2{
+    font-size: 1.3rem !important;
+  }
+  .seccion-2 .btn{
+    font-size: 0.8rem !important;
+  }
+
+  .seccion-3 h2{
+    font-size: 1.2rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .seccion-3 p{
+    font-size: 0.7rem !important;
+  }
+  .seccion-3 .btn{
+    font-size: 0.6rem !important;
+    padding: 0.5rem !important;
+  }
+
+  footer .col-4{
+    padding: 0.5rem !important;
+  }
+  footer h2.text-light{
+    font-size: 0.8rem !important;
+  }
+  footer a{
+    font-size: 0.7rem !important;
+  }
+  footer p.text-light{
+    font-size: 0.6rem !important;
+  }
+}
