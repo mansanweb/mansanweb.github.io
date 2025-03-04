@@ -17,6 +17,7 @@ ul{
 }
 a{
   text-decoration: none;
+  color: inherit;
 }
 h2{
   font-family: 'Montserrat';
@@ -42,14 +43,14 @@ header img {
   max-height: 80px;
 }
 
-.header .text-white-50{
-  color: rgba(255, 255, 255, 0.6) !important;
-  a{
+.header .text-white-50 a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-  }
+    transition: all 0.3s ease-in-out;
 }
-
+.header .text-white-50 a:hover{
+  color: #ffffff;
+}
 figure {
   margin-bottom: 0;
 }
